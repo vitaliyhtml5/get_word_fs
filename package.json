@@ -1,0 +1,23 @@
+{
+  "name": "get_word",
+  "version": "1.0.0",
+  "description": "simple app to learn english",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "english",
+    "words",
+    "cards"
+  ],
+  "author": "vitalii",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "multer": "^1.4.3",
+    "tinify": "^1.6.1",
+    "validator": "^13.7.0"
+  }
+}

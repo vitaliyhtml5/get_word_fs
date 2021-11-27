@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header-wrap">
+                <a href="/"><img src="img/logo.png" alt="Logo for Get word"></a>
+                <h1>Get a word</h1>
+                <b>Admin Panel</b>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="content-wrap">
+                <aside id="aside">
+                    <ul class="nav-list">
+                        <li class="nav-item_checked menu-item"><span class="material-icons">settings
+                        </span>Manage word</li>
+                        <li class="menu-item"><span class="material-icons">widgets</span>Manage category</li>
+                        <li class="menu-item"><span class="material-icons">library_add</span>Add word</li>
+                        <li class="menu-item"><span class="material-icons">download</span>Export file</li>
+                    </ul>
+                </aside>
+                <div id="main-wrap">
+                    <div class="loader"></div>
+                    <span class="hide-sidebar material-icons" title="Hide sidebar">present_to_all</span>
+                    <div id="manage-word" class="data-wrap"></div>  
+                    <div id="manage-category" class="data-wrap"></div>
+                    <div id="add-word" class="data-wrap"></div>
+                    <div id="export-file" class="data-wrap"></div>
+                    <div class="error-page"></div>
+                    <div class="empty-page"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="alert-wrap"></div>
+    <div class="overlay"></div>
+    </div>
+    <script type="module" src="admin.js"></script>
+</body>
+</html>

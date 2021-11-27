@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a word</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header-wrap">
+                <img src="img/logo.png" alt="Logo for Get word">
+                <h1>Get a word</h1>
+                <button class="hamburger-menu material-icons">menu</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="content-wrap">
+                <aside id="aside">
+                    <ul class="nav-list">
+                        <li class="nav-item_checked menu-item"><span class="material-icons">event_note</span>Learn word</li>
+                        <li class="sublist-menu"><span class="material-icons">work_outline</span>Choose category
+                            <ul class="category-list"></ul>
+                        </li>
+                        <li class="menu-item"><span class="material-icons">search</span>Search word</li>
+                        <li class="menu-item fav-words"><span class="material-icons">star_outline</span>Favorite words</li>
+                        <li class="admin-link"><span class="material-icons">auto_fix_high</span><a href="/admin">Manage words</a></li>
+                    </ul>
+                </aside>
+                <div id="main-wrap">
+                    <div class="loader"></div>
+                    <div class="empty-page"></div>
+                    <div id="learn-word" class="words-section"></div>
+                    <div id="choose-category">
+                        <div class="words-section"></div>
+                        <div class="words-section"></div>
+                        <div class="words-section"></div>
+                        <div class="words-section"></div>
+                    </div>
+                    <div id="search-word"></div>
+                    <div id="favorite-word" class="words-section"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
