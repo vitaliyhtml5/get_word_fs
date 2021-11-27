@@ -1,1 +1,7 @@
-[{"id":1,"name":"cats"},{"id":2,"name":"people"}]
+[
+    { "id": "1", "name": "animals" },
+    { "id": "2", "name": "food" },
+    { "id": "3", "name": "fruit" },
+    { "id": "4", "name": "job" }
+  ]
+  

@@ -1,1 +1,163 @@
-[{"id":1,"english":"cat","transcription":"cat","russian":"кошка","image":"ef7eedbe55b9dacf84610399414a3168","category":"cats"},{"id":2,"english":"dev","transcription":"dev","russian":"разработчик","image":"0ff9b4d6de36aed0588533331fc5d676","category":"people"},{"id":3,"english":"designer","transcription":"designer","russian":"дизайнер","image":"c13e35b0a26f7906192659926aab9690","category":"people"}]
+[
+    {
+      "id": 1,
+      "english": "moose",
+      "transcription": "[muːs]",
+      "russian": "лось",
+      "image": "moose.png",
+      "category": "animals"
+    },
+    {
+      "id": 2,
+      "english": "camel",
+      "transcription": "[ˈkæm(ə)l]",
+      "russian": "верблюд",
+      "image": "camel.png",
+      "category": "animals"
+    },
+    {
+      "id": 3,
+      "english": "giraffe",
+      "transcription": "[ʤɪ’rɑːf]",
+      "russian": "жираф",
+      "image": "giraffe.png",
+      "category": "animals"
+    },
+    {
+      "id": 4,
+      "english": "lion",
+      "transcription": "[‘laɪən]",
+      "russian": "лев",
+      "image": "lion.png",
+      "category": "animals"
+    },
+    {
+      "id": 5,
+      "english": "raccoon",
+      "transcription": "[ræˈkuːn]",
+      "russian": "енот",
+      "image": "raccoon.png",
+      "category": "animals"
+    },
+    {
+      "id": 6,
+      "english": "bread",
+      "transcription": "[bred]",
+      "russian": "хлеб",
+      "image": "bread.png",
+      "category": "food"
+    },
+    {
+      "id": 7,
+      "english": "garlic",
+      "transcription": "[‘gɑːlɪk]",
+      "russian": "чеснок",
+      "image": "garlic.png",
+      "category": "food"
+    },
+    {
+      "id": 8,
+      "english": "butter",
+      "transcription": "[‘bʌtə]",
+      "russian": "масло",
+      "image": "butter.png",
+      "category": "food"
+    },
+    {
+      "id": 9,
+      "english": "potato",
+      "transcription": "[pə’teɪtəu]",
+      "russian": "картофель",
+      "image": "potato.jpg",
+      "category": "food"
+    },
+    {
+      "id": 10,
+      "english": "cheese",
+      "transcription": "[ʧiːz]",
+      "russian": "сыр",
+      "image": "cheese.jpg",
+      "category": "food"
+    },
+    {
+      "id": 11,
+      "english": "apricot",
+      "transcription": "[‘eɪprɪkɔt]",
+      "russian": "абрикос",
+      "image": "apricot.png",
+      "category": "fruit"
+    },
+    {
+      "id": 12,
+      "english": "banana",
+      "transcription": "[bə’nɑːnə]",
+      "russian": "банан",
+      "image": "banana.jpg",
+      "category": "fruit"
+    },
+    {
+      "id": 13,
+      "english": "pear",
+      "transcription": "[peə]",
+      "russian": "груша",
+      "image": "pear.jpg",
+      "category": "fruit"
+    },
+    {
+      "id": 14,
+      "english": "lemon",
+      "transcription": "[‘lemən]",
+      "russian": "лимон",
+      "image": "lemon.png",
+      "category": "fruit"
+    },
+    {
+      "id": 15,
+      "english": "apple",
+      "transcription": "[‘æpl]",
+      "russian": "яблоко",
+      "image": "apple.png",
+      "category": "fruit"
+    },
+    {
+      "id": 16,
+      "english": "waiter",
+      "transcription": "[ˈweɪtə]",
+      "russian": "официант",
+      "image": "waiter.png",
+      "category": "job"
+    },
+    {
+      "id": 17,
+      "english": "teacher",
+      "transcription": "[ˈtiːtʃə]",
+      "russian": "учитель",
+      "image": "teacher.png",
+      "category": "job"
+    },
+    {
+      "id": 18,
+      "english": "driver",
+      "transcription": "[ˈdraɪvə]",
+      "russian": "водитель",
+      "image": "driver.png",
+      "category": "job"
+    },
+    {
+      "id": 19,
+      "english": "builder",
+      "transcription": "[ˈbɪldə]",
+      "russian": "строитель",
+      "image": "builder.png",
+      "category": "job"
+    },
+    {
+      "id": 20,
+      "english": "singer",
+      "transcription": "[ˈsɪŋə]",
+      "russian": "певец",
+      "image": "singer.png",
+      "category": "job"
+    }
+  ]
+  
