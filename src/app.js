@@ -7,6 +7,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public'), {
     extensions: ['html']
 }));
+const port = process.env.PORT || 3000;
 const upload = multer({dest:path.join(__dirname, '../public/img/words')});
 
 const getAll = require('./get_all.js');
@@ -40,4 +41,4 @@ app.get('/download-csv', (req, res) => downloadWords.downloadWordsCsv(req, res))
 // 404 error
 app.get('*/*', (req, res) => res.status(404).sendFile(`${path.join(__dirname,'../public')}/404-error.html`));
 
-app.listen(3000, () => console.log('Server is working on 3000 port'));
+app.listen(port, () => {     console.log(`Server is running on port ${port}`);  });
