@@ -1,6 +1,6 @@
 const path = require('path');
 const tinify = require("tinify");
-tinify.key = "lYpXvgggjYXpX0hBmzwGtMcZBzQfbBnt";
+tinify.key = "";
 
 const uploadImg = (req, res) => {
     let filedata = req.file.filename;
